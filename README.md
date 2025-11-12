@@ -2,7 +2,11 @@
 
 ## Overview
 
-This repository showcases my Week 2 progress in learning Rust, featuring hands-on implementations of key concepts like traits, error handling, enums, and JSON serialization.Each , focusing on core concepts through practical implementations. Each file demonstrates a different fundamental concept of the Rust programming language.
+This repository showcases my Week 2 progress in learning Rust, featuring hands-on 
+implementations of key concepts like traits, error handling, enums, and JSON 
+serialization. Each file demonstrates a different fundamental concept of the 
+Rust programming language.
+
 
 ## 📑 Table of Contents
 - [Overview](#overview)
@@ -59,12 +63,15 @@ This repository showcases my Week 2 progress in learning Rust, featuring hands-o
 ## 📁 Folder Structure
 rust-learning-journey-week2/
 │
+├── Cargo.toml          
 ├── Enums.rs
 ├── Traits.rs
 ├── Pattern-matching.rs
 ├── Error-handling.rs
 ├── json-serde.rs
+├── LICENSE
 └── README.md
+
 
 ### Running the Programs
 
@@ -79,12 +86,14 @@ rustc Enums.rs
 rustc Pattern-matching.rs && ./Pattern-matching
 ```
 
-# For json-serde.rs, use cargo (includes dependencies)
-Dependencies used:
-- `serde = "1.0"`
-- `serde_json = "1.0"`
+### For json-serde.rs, use cargo (includes dependencies)
 
 cargo run --bin json-serde
+
+**Dependencies:**
+- `serde = { version = "1.0", features = ["derive"] }`
+- `serde_json = "1.0"`
+
 
 ## 📖 What I Learned
 

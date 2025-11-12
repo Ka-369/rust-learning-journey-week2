@@ -2,7 +2,18 @@
 
 ## Overview
 
-This repository documents my Week 2 journey learning Rust, focusing on core concepts through practical implementations. Each file demonstrates a different fundamental concept of the Rust programming language.
+This repository showcases my Week 2 progress in learning Rust, featuring hands-on implementations of key concepts like traits, error handling, enums, and JSON serialization.Each , focusing on core concepts through practical implementations. Each file demonstrates a different fundamental concept of the Rust programming language.
+
+## 📑 Table of Contents
+- [Overview](#overview)
+- [Topics Covered](#-topics-covered)
+- [Getting Started](#-getting-started)
+- [What I Learned](#-what-i-learned)
+- [Key Takeaways](#-key-takeaways)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
+
 
 ## 📚 Topics Covered
 
@@ -44,6 +55,17 @@ This repository documents my Week 2 journey learning Rust, focusing on core conc
 - Rust installed (1.70.0 or later recommended)
 - Cargo package manager
 
+
+## 📁 Folder Structure
+rust-learning-journey-week2/
+│
+├── Enums.rs
+├── Traits.rs
+├── Pattern-matching.rs
+├── Error-handling.rs
+├── json-serde.rs
+└── README.md
+
 ### Running the Programs
 
 Each file can be compiled and run individually:
@@ -58,6 +80,10 @@ rustc Pattern-matching.rs && ./Pattern-matching
 ```
 
 # For json-serde.rs, use cargo (includes dependencies)
+Dependencies used:
+- `serde = "1.0"`
+- `serde_json = "1.0"`
+
 cargo run --bin json-serde
 
 ## 📖 What I Learned
@@ -84,9 +110,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This is a personal learning repository, but suggestions and feedback are welcome! Feel free to open an issue if you spot any improvements.
 
-## 📬 Contact
+## 🌿 Git Branching
 
+- **main** → stable and reviewed code  
+- **dev** → work-in-progress code for ongoing concepts  
+- **feature/*** → separate branches for each topic (e.g., `feature/traits`, `feature/enums`)  
+- Use pull requests to merge new learnings into `main` after testing  
+
+## 📬 Contact
 Feel free to reach out if you have questions or want to discuss Rust concepts!
+
 
 ---
 
